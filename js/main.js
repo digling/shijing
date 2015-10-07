@@ -34,7 +34,8 @@ function showPoem(number) {
   txt += '<h3></h3>';
   txt += '<table id="rhymetable"><tr><th>SECTION</th><th>RHYME</th><th>ALT. RHY.</th><th>OCBS</th><th>PWY</th><th>MCH</th><th>YUN</th></tr>';
   var rhymes = {};
-  var colors = ['lightblue','lightgray','lightgreen','lightyellow','lightred'];
+  var colors = ['lightblue','lightgray','lightgreen','lightyellow','lightred',
+    'Gold','LightPink','BurlyWood','RosyBrown','DarkGray','Cyan','SandyBrown']];
   for (var i=0,row; row=data['sections'][i]; i++) {
     var sta = row[0];
     if (row[2] != '') {
