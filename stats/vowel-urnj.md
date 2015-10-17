@@ -1,302 +1,302 @@
 # Infomap Cluster 0
 
-## Character 雷 (MCH: lwoj, OCH: `*`C. rˤ  uj)
+## Character 雷 (MCH: lwoj, OCH: &#42;C.rˤuj)
 **Community-Internal Edges (4 in Total)**
-* 畏 (MCH: 'jw+jH, OCH: `*`ʔ  uj -s, Frequency: 1)
-* 懷 (MCH: hweaj, OCH: `*`[g]ˤ r uj, Frequency: 1)
-* 推 (MCH: thwoj, OCH: `*`tʰˤ  uj, Frequency: 1)
-* 遺 (MCH: ywijH, OCH: `*`[ɢ] (r) uj -s, Frequency: 2)
+* 畏 (MCH: 'jw+jH, OCH: &#42;ʔuj-s, Frequency: 1)
+* 懷 (MCH: hweaj, OCH: &#42;[g]ˤruj, Frequency: 1)
+* 推 (MCH: thwoj, OCH: &#42;tʰˤuj, Frequency: 1)
+* 遺 (MCH: ywijH, OCH: &#42;[ɢ](r)uj-s, Frequency: 2)
 
 **Community-External Edges (2 in Total)**
-* 焞 (MCH: thwon, OCH: `*`tʰˤ  ur, Frequency: 1)
-* 威 (MCH: 'jw+j, OCH: `*`ʔ  uj, Frequency: 1)
+* 焞 (MCH: thwon, OCH: &#42;tʰˤur, Frequency: 1)
+* 威 (MCH: 'jw+j, OCH: &#42;ʔuj, Frequency: 1)
 
-## Character 敦 (MCH: twon, OCH: `*`tˤ  ur)
+## Character 敦 (MCH: twon, OCH: &#42;tˤur)
 **Community-Internal Edges (1 in Total)**
-* 遺 (MCH: ywijH, OCH: `*`[ɢ] (r) uj -s, Frequency: 1)
+* 遺 (MCH: ywijH, OCH: &#42;[ɢ](r)uj-s, Frequency: 1)
 
-## Character 推 (MCH: thwoj, OCH: `*`tʰˤ  uj)
+## Character 推 (MCH: thwoj, OCH: &#42;tʰˤuj)
 **Community-Internal Edges (3 in Total)**
-* 畏 (MCH: 'jw+jH, OCH: `*`ʔ  uj -s, Frequency: 1)
-* 雷 (MCH: lwoj, OCH: `*`C. rˤ  uj, Frequency: 1)
-* 遺 (MCH: ywijH, OCH: `*`[ɢ] (r) uj -s, Frequency: 2)
+* 畏 (MCH: 'jw+jH, OCH: &#42;ʔuj-s, Frequency: 1)
+* 雷 (MCH: lwoj, OCH: &#42;C.rˤuj, Frequency: 1)
+* 遺 (MCH: ywijH, OCH: &#42;[ɢ](r)uj-s, Frequency: 2)
 
-## Character 壞 (MCH: hweajH, OCH: `*`N- [k]ˤ <r> uj -s)
+## Character 壞 (MCH: hweajH, OCH: &#42;N-[k]ˤ<r>uj-s)
 **Community-Internal Edges (1 in Total)**
-* 畏 (MCH: 'jw+jH, OCH: `*`ʔ  uj -s, Frequency: 1)
+* 畏 (MCH: 'jw+jH, OCH: &#42;ʔuj-s, Frequency: 1)
 
-## Character 懷 (MCH: hweaj, OCH: `*`[g]ˤ r uj)
+## Character 懷 (MCH: hweaj, OCH: &#42;[g]ˤruj)
 **Community-Internal Edges (3 in Total)**
-* 雷 (MCH: lwoj, OCH: `*`C. rˤ  uj, Frequency: 1)
-* 遺 (MCH: ywijH, OCH: `*`[ɢ] (r) uj -s, Frequency: 1)
-* 畏 (MCH: 'jw+jH, OCH: `*`ʔ  uj -s, Frequency: 2)
+* 雷 (MCH: lwoj, OCH: &#42;C.rˤuj, Frequency: 1)
+* 遺 (MCH: ywijH, OCH: &#42;[ɢ](r)uj-s, Frequency: 1)
+* 畏 (MCH: 'jw+jH, OCH: &#42;ʔuj-s, Frequency: 2)
 
 **Community-External Edges (4 in Total)**
-* 罍 (MCH: lwoj, OCH: `*`[r]ˤ  uj, Frequency: 1)
-* 崔 (MCH: dzwoj, OCH: `*`[dz]ˤ  uj, Frequency: 1)
-* 虺 (MCH: xjw+jX, OCH: `*`[r̥]  u[j]ʔ, Frequency: 1)
-* 威 (MCH: 'jw+j, OCH: `*`ʔ  uj, Frequency: 1)
+* 罍 (MCH: lwoj, OCH: &#42;[r]ˤuj, Frequency: 1)
+* 崔 (MCH: dzwoj, OCH: &#42;[dz]ˤuj, Frequency: 1)
+* 虺 (MCH: xjw+jX, OCH: &#42;[r̥]u[j]ʔ, Frequency: 1)
+* 威 (MCH: 'jw+j, OCH: &#42;ʔuj, Frequency: 1)
 
-## Character 遺 (MCH: ywijH, OCH: `*`[ɢ] (r) uj -s)
+## Character 遺 (MCH: ywijH, OCH: &#42;[ɢ](r)uj-s)
 **Community-Internal Edges (5 in Total)**
-* 畏 (MCH: 'jw+jH, OCH: `*`ʔ  uj -s, Frequency: 2)
-* 敦 (MCH: twon, OCH: `*`tˤ  ur, Frequency: 1)
-* 雷 (MCH: lwoj, OCH: `*`C. rˤ  uj, Frequency: 2)
-* 懷 (MCH: hweaj, OCH: `*`[g]ˤ r uj, Frequency: 1)
-* 推 (MCH: thwoj, OCH: `*`tʰˤ  uj, Frequency: 2)
+* 畏 (MCH: 'jw+jH, OCH: &#42;ʔuj-s, Frequency: 2)
+* 敦 (MCH: twon, OCH: &#42;tˤur, Frequency: 1)
+* 雷 (MCH: lwoj, OCH: &#42;C.rˤuj, Frequency: 2)
+* 懷 (MCH: hweaj, OCH: &#42;[g]ˤruj, Frequency: 1)
+* 推 (MCH: thwoj, OCH: &#42;tʰˤuj, Frequency: 2)
 
-## Character 畏 (MCH: 'jw+jH, OCH: `*`ʔ  uj -s)
+## Character 畏 (MCH: 'jw+jH, OCH: &#42;ʔuj-s)
 **Community-Internal Edges (5 in Total)**
-* 推 (MCH: thwoj, OCH: `*`tʰˤ  uj, Frequency: 1)
-* 壞 (MCH: hweajH, OCH: `*`N- [k]ˤ <r> uj -s, Frequency: 1)
-* 雷 (MCH: lwoj, OCH: `*`C. rˤ  uj, Frequency: 1)
-* 懷 (MCH: hweaj, OCH: `*`[g]ˤ r uj, Frequency: 2)
-* 遺 (MCH: ywijH, OCH: `*`[ɢ] (r) uj -s, Frequency: 2)
+* 推 (MCH: thwoj, OCH: &#42;tʰˤuj, Frequency: 1)
+* 壞 (MCH: hweajH, OCH: &#42;N-[k]ˤ<r>uj-s, Frequency: 1)
+* 雷 (MCH: lwoj, OCH: &#42;C.rˤuj, Frequency: 1)
+* 懷 (MCH: hweaj, OCH: &#42;[g]ˤruj, Frequency: 2)
+* 遺 (MCH: ywijH, OCH: &#42;[ɢ](r)uj-s, Frequency: 2)
 
 # Infomap Cluster 1
 
-## Character 漘 (MCH: zywin, OCH: `*`sə. d  ur)
+## Character 漘 (MCH: zywin, OCH: &#42;sə.dur)
 **Community-Internal Edges (4 in Total)**
-* 飧 (MCH: swon, OCH: `*`[s]ˤ  u[r], Frequency: 1)
-* 囷 (MCH: khwin, OCH: `*`kʰ r un, Frequency: 1)
-* 鶉 (MCH: dzywin, OCH: `*`[d]  ur, Frequency: 1)
-* 輪 (MCH: lwin, OCH: `*`[r]  u[n], Frequency: 1)
+* 飧 (MCH: swon, OCH: &#42;[s]ˤu[r], Frequency: 1)
+* 囷 (MCH: khwin, OCH: &#42;kʰrun, Frequency: 1)
+* 鶉 (MCH: dzywin, OCH: &#42;[d]ur, Frequency: 1)
+* 輪 (MCH: lwin, OCH: &#42;[r]u[n], Frequency: 1)
 
 **Community-External Edges (2 in Total)**
-* 昆 (MCH: kwon, OCH: `*`[k]ˤ  u[n], Frequency: 1)
-* 聞 (MCH: mjun, OCH: `*`m  u[n], Frequency: 1)
+* 昆 (MCH: kwon, OCH: &#42;[k]ˤu[n], Frequency: 1)
+* 聞 (MCH: mjun, OCH: &#42;mu[n], Frequency: 1)
 
-## Character 鶉 (MCH: dzywin, OCH: `*`[d]  ur)
+## Character 鶉 (MCH: dzywin, OCH: &#42;[d]ur)
 **Community-Internal Edges (6 in Total)**
-* 漘 (MCH: zywin, OCH: `*`sə. d  ur, Frequency: 1)
-* 飧 (MCH: swon, OCH: `*`[s]ˤ  u[r], Frequency: 1)
-* 囷 (MCH: khwin, OCH: `*`kʰ r un, Frequency: 1)
-* 奔 (MCH: pwon, OCH: `*`pˤ  ur, Frequency: 1)
-* 君 (MCH: kjun, OCH: `*`C. q  ur, Frequency: 1)
-* 輪 (MCH: lwin, OCH: `*`[r]  u[n], Frequency: 1)
+* 漘 (MCH: zywin, OCH: &#42;sə.dur, Frequency: 1)
+* 飧 (MCH: swon, OCH: &#42;[s]ˤu[r], Frequency: 1)
+* 囷 (MCH: khwin, OCH: &#42;kʰrun, Frequency: 1)
+* 奔 (MCH: pwon, OCH: &#42;pˤur, Frequency: 1)
+* 君 (MCH: kjun, OCH: &#42;C.qur, Frequency: 1)
+* 輪 (MCH: lwin, OCH: &#42;[r]u[n], Frequency: 1)
 
-## Character 輪 (MCH: lwin, OCH: `*`[r]  u[n])
+## Character 輪 (MCH: lwin, OCH: &#42;[r]u[n])
 **Community-Internal Edges (4 in Total)**
-* 漘 (MCH: zywin, OCH: `*`sə. d  ur, Frequency: 1)
-* 飧 (MCH: swon, OCH: `*`[s]ˤ  u[r], Frequency: 1)
-* 囷 (MCH: khwin, OCH: `*`kʰ r un, Frequency: 1)
-* 鶉 (MCH: dzywin, OCH: `*`[d]  ur, Frequency: 1)
+* 漘 (MCH: zywin, OCH: &#42;sə.dur, Frequency: 1)
+* 飧 (MCH: swon, OCH: &#42;[s]ˤu[r], Frequency: 1)
+* 囷 (MCH: khwin, OCH: &#42;kʰrun, Frequency: 1)
+* 鶉 (MCH: dzywin, OCH: &#42;[d]ur, Frequency: 1)
 
-## Character 君 (MCH: kjun, OCH: `*`C. q  ur)
+## Character 君 (MCH: kjun, OCH: &#42;C.qur)
 **Community-Internal Edges (1 in Total)**
-* 鶉 (MCH: dzywin, OCH: `*`[d]  ur, Frequency: 1)
+* 鶉 (MCH: dzywin, OCH: &#42;[d]ur, Frequency: 1)
 
-## Character 飧 (MCH: swon, OCH: `*`[s]ˤ  u[r])
+## Character 飧 (MCH: swon, OCH: &#42;[s]ˤu[r])
 **Community-Internal Edges (4 in Total)**
-* 漘 (MCH: zywin, OCH: `*`sə. d  ur, Frequency: 1)
-* 囷 (MCH: khwin, OCH: `*`kʰ r un, Frequency: 1)
-* 輪 (MCH: lwin, OCH: `*`[r]  u[n], Frequency: 1)
-* 鶉 (MCH: dzywin, OCH: `*`[d]  ur, Frequency: 1)
+* 漘 (MCH: zywin, OCH: &#42;sə.dur, Frequency: 1)
+* 囷 (MCH: khwin, OCH: &#42;kʰrun, Frequency: 1)
+* 輪 (MCH: lwin, OCH: &#42;[r]u[n], Frequency: 1)
+* 鶉 (MCH: dzywin, OCH: &#42;[d]ur, Frequency: 1)
 
-## Character 璊 (MCH: mwon, OCH: `*`mˤ  ur)
+## Character 璊 (MCH: mwon, OCH: &#42;mˤur)
 **Community-Internal Edges (1 in Total)**
-* 奔 (MCH: pwon, OCH: `*`pˤ  ur, Frequency: 1)
+* 奔 (MCH: pwon, OCH: &#42;pˤur, Frequency: 1)
 
-## Character 囷 (MCH: khwin, OCH: `*`kʰ r un)
+## Character 囷 (MCH: khwin, OCH: &#42;kʰrun)
 **Community-Internal Edges (4 in Total)**
-* 漘 (MCH: zywin, OCH: `*`sə. d  ur, Frequency: 1)
-* 飧 (MCH: swon, OCH: `*`[s]ˤ  u[r], Frequency: 1)
-* 輪 (MCH: lwin, OCH: `*`[r]  u[n], Frequency: 1)
-* 鶉 (MCH: dzywin, OCH: `*`[d]  ur, Frequency: 1)
+* 漘 (MCH: zywin, OCH: &#42;sə.dur, Frequency: 1)
+* 飧 (MCH: swon, OCH: &#42;[s]ˤu[r], Frequency: 1)
+* 輪 (MCH: lwin, OCH: &#42;[r]u[n], Frequency: 1)
+* 鶉 (MCH: dzywin, OCH: &#42;[d]ur, Frequency: 1)
 
-## Character 奔 (MCH: pwon, OCH: `*`pˤ  ur)
+## Character 奔 (MCH: pwon, OCH: &#42;pˤur)
 **Community-Internal Edges (2 in Total)**
-* 璊 (MCH: mwon, OCH: `*`mˤ  ur, Frequency: 1)
-* 鶉 (MCH: dzywin, OCH: `*`[d]  ur, Frequency: 1)
+* 璊 (MCH: mwon, OCH: &#42;mˤur, Frequency: 1)
+* 鶉 (MCH: dzywin, OCH: &#42;[d]ur, Frequency: 1)
 
 # Infomap Cluster 2
 
-## Character 隼 (MCH: swinX, OCH: `*`[s]  urʔ)
+## Character 隼 (MCH: swinX, OCH: &#42;[s]urʔ)
 **Community-Internal Edges (1 in Total)**
-* 水 (MCH: sywijX, OCH: `*`s. t  urʔ, Frequency: 1)
+* 水 (MCH: sywijX, OCH: &#42;s.turʔ, Frequency: 1)
 
-## Character 水 (MCH: sywijX, OCH: `*`s. t  urʔ)
+## Character 水 (MCH: sywijX, OCH: &#42;s.turʔ)
 **Community-Internal Edges (1 in Total)**
-* 隼 (MCH: swinX, OCH: `*`[s]  urʔ, Frequency: 1)
+* 隼 (MCH: swinX, OCH: &#42;[s]urʔ, Frequency: 1)
 
 # Infomap Cluster 3
 
-## Character 緡 (MCH: min, OCH: `*`m- r  un)
+## Character 緡 (MCH: min, OCH: &#42;m-run)
 **Community-Internal Edges (1 in Total)**
-* 孫 (MCH: swon, OCH: `*`[s]ˤ  u[n], Frequency: 1)
+* 孫 (MCH: swon, OCH: &#42;[s]ˤu[n], Frequency: 1)
 
-## Character 孫 (MCH: swon, OCH: `*`[s]ˤ  u[n])
+## Character 孫 (MCH: swon, OCH: &#42;[s]ˤu[n])
 **Community-Internal Edges (1 in Total)**
-* 緡 (MCH: min, OCH: `*`m- r  un, Frequency: 1)
+* 緡 (MCH: min, OCH: &#42;m-run, Frequency: 1)
 
 # Infomap Cluster 4
 
-## Character 焞 (MCH: thwon, OCH: `*`tʰˤ  ur)
+## Character 焞 (MCH: thwon, OCH: &#42;tʰˤur)
 **Community-Internal Edges (1 in Total)**
-* 威 (MCH: 'jw+j, OCH: `*`ʔ  uj, Frequency: 1)
+* 威 (MCH: 'jw+j, OCH: &#42;ʔuj, Frequency: 1)
 
 **Community-External Edges (1 in Total)**
-* 雷 (MCH: lwoj, OCH: `*`C. rˤ  uj, Frequency: 1)
+* 雷 (MCH: lwoj, OCH: &#42;C.rˤuj, Frequency: 1)
 
-## Character 罪 (MCH: dzwojX, OCH: `*`[dz]ˤ  ujʔ)
+## Character 罪 (MCH: dzwojX, OCH: &#42;[dz]ˤujʔ)
 **Community-Internal Edges (1 in Total)**
-* 威 (MCH: 'jw+j, OCH: `*`ʔ  uj, Frequency: 3)
+* 威 (MCH: 'jw+j, OCH: &#42;ʔuj, Frequency: 3)
 
-## Character 威 (MCH: 'jw+j, OCH: `*`ʔ  uj)
+## Character 威 (MCH: 'jw+j, OCH: &#42;ʔuj)
 **Community-Internal Edges (2 in Total)**
-* 焞 (MCH: thwon, OCH: `*`tʰˤ  ur, Frequency: 1)
-* 罪 (MCH: dzwojX, OCH: `*`[dz]ˤ  ujʔ, Frequency: 3)
+* 焞 (MCH: thwon, OCH: &#42;tʰˤur, Frequency: 1)
+* 罪 (MCH: dzwojX, OCH: &#42;[dz]ˤujʔ, Frequency: 3)
 
 **Community-External Edges (2 in Total)**
-* 雷 (MCH: lwoj, OCH: `*`C. rˤ  uj, Frequency: 1)
-* 懷 (MCH: hweaj, OCH: `*`[g]ˤ r uj, Frequency: 1)
+* 雷 (MCH: lwoj, OCH: &#42;C.rˤuj, Frequency: 1)
+* 懷 (MCH: hweaj, OCH: &#42;[g]ˤruj, Frequency: 1)
 
 # Infomap Cluster 5
 
-## Character 熏 (MCH: xjun, OCH: `*`qʰ  u[n])
+## Character 熏 (MCH: xjun, OCH: &#42;qʰu[n])
 **Community-Internal Edges (4 in Total)**
-* 聞 (MCH: mjun, OCH: `*`m  u[n], Frequency: 1)
-* 遯 (MCH: dwonH, OCH: `*`lˤ  u[n]ʔ -s, Frequency: 1)
-* 焚 (MCH: bjun, OCH: `*`[b]  u[n], Frequency: 1)
-* 川 (MCH: tsyhwen, OCH: `*`t. l̥  u[n], Frequency: 1)
+* 聞 (MCH: mjun, OCH: &#42;mu[n], Frequency: 1)
+* 遯 (MCH: dwonH, OCH: &#42;lˤu[n]ʔ-s, Frequency: 1)
+* 焚 (MCH: bjun, OCH: &#42;[b]u[n], Frequency: 1)
+* 川 (MCH: tsyhwen, OCH: &#42;t.l̥u[n], Frequency: 1)
 
-## Character 遯 (MCH: dwonH, OCH: `*`lˤ  u[n]ʔ -s)
+## Character 遯 (MCH: dwonH, OCH: &#42;lˤu[n]ʔ-s)
 **Community-Internal Edges (4 in Total)**
-* 聞 (MCH: mjun, OCH: `*`m  u[n], Frequency: 1)
-* 焚 (MCH: bjun, OCH: `*`[b]  u[n], Frequency: 1)
-* 川 (MCH: tsyhwen, OCH: `*`t. l̥  u[n], Frequency: 1)
-* 熏 (MCH: xjun, OCH: `*`qʰ  u[n], Frequency: 1)
+* 聞 (MCH: mjun, OCH: &#42;mu[n], Frequency: 1)
+* 焚 (MCH: bjun, OCH: &#42;[b]u[n], Frequency: 1)
+* 川 (MCH: tsyhwen, OCH: &#42;t.l̥u[n], Frequency: 1)
+* 熏 (MCH: xjun, OCH: &#42;qʰu[n], Frequency: 1)
 
-## Character 昆 (MCH: kwon, OCH: `*`[k]ˤ  u[n])
+## Character 昆 (MCH: kwon, OCH: &#42;[k]ˤu[n])
 **Community-Internal Edges (1 in Total)**
-* 聞 (MCH: mjun, OCH: `*`m  u[n], Frequency: 1)
+* 聞 (MCH: mjun, OCH: &#42;mu[n], Frequency: 1)
 
 **Community-External Edges (1 in Total)**
-* 漘 (MCH: zywin, OCH: `*`sə. d  ur, Frequency: 1)
+* 漘 (MCH: zywin, OCH: &#42;sə.dur, Frequency: 1)
 
-## Character 焚 (MCH: bjun, OCH: `*`[b]  u[n])
+## Character 焚 (MCH: bjun, OCH: &#42;[b]u[n])
 **Community-Internal Edges (4 in Total)**
-* 聞 (MCH: mjun, OCH: `*`m  u[n], Frequency: 1)
-* 遯 (MCH: dwonH, OCH: `*`lˤ  u[n]ʔ -s, Frequency: 1)
-* 川 (MCH: tsyhwen, OCH: `*`t. l̥  u[n], Frequency: 1)
-* 熏 (MCH: xjun, OCH: `*`qʰ  u[n], Frequency: 1)
+* 聞 (MCH: mjun, OCH: &#42;mu[n], Frequency: 1)
+* 遯 (MCH: dwonH, OCH: &#42;lˤu[n]ʔ-s, Frequency: 1)
+* 川 (MCH: tsyhwen, OCH: &#42;t.l̥u[n], Frequency: 1)
+* 熏 (MCH: xjun, OCH: &#42;qʰu[n], Frequency: 1)
 
-## Character 川 (MCH: tsyhwen, OCH: `*`t. l̥  u[n])
+## Character 川 (MCH: tsyhwen, OCH: &#42;t.l̥u[n])
 **Community-Internal Edges (4 in Total)**
-* 聞 (MCH: mjun, OCH: `*`m  u[n], Frequency: 1)
-* 遯 (MCH: dwonH, OCH: `*`lˤ  u[n]ʔ -s, Frequency: 1)
-* 焚 (MCH: bjun, OCH: `*`[b]  u[n], Frequency: 1)
-* 熏 (MCH: xjun, OCH: `*`qʰ  u[n], Frequency: 1)
+* 聞 (MCH: mjun, OCH: &#42;mu[n], Frequency: 1)
+* 遯 (MCH: dwonH, OCH: &#42;lˤu[n]ʔ-s, Frequency: 1)
+* 焚 (MCH: bjun, OCH: &#42;[b]u[n], Frequency: 1)
+* 熏 (MCH: xjun, OCH: &#42;qʰu[n], Frequency: 1)
 
-## Character 聞 (MCH: mjun, OCH: `*`m  u[n])
+## Character 聞 (MCH: mjun, OCH: &#42;mu[n])
 **Community-Internal Edges (5 in Total)**
-* 遯 (MCH: dwonH, OCH: `*`lˤ  u[n]ʔ -s, Frequency: 1)
-* 焚 (MCH: bjun, OCH: `*`[b]  u[n], Frequency: 1)
-* 昆 (MCH: kwon, OCH: `*`[k]ˤ  u[n], Frequency: 1)
-* 川 (MCH: tsyhwen, OCH: `*`t. l̥  u[n], Frequency: 1)
-* 熏 (MCH: xjun, OCH: `*`qʰ  u[n], Frequency: 1)
+* 遯 (MCH: dwonH, OCH: &#42;lˤu[n]ʔ-s, Frequency: 1)
+* 焚 (MCH: bjun, OCH: &#42;[b]u[n], Frequency: 1)
+* 昆 (MCH: kwon, OCH: &#42;[k]ˤu[n], Frequency: 1)
+* 川 (MCH: tsyhwen, OCH: &#42;t.l̥u[n], Frequency: 1)
+* 熏 (MCH: xjun, OCH: &#42;qʰu[n], Frequency: 1)
 
 **Community-External Edges (1 in Total)**
-* 漘 (MCH: zywin, OCH: `*`sə. d  ur, Frequency: 1)
+* 漘 (MCH: zywin, OCH: &#42;sə.dur, Frequency: 1)
 
 # Infomap Cluster 6
 
-## Character 罍 (MCH: lwoj, OCH: `*`[r]ˤ  uj)
+## Character 罍 (MCH: lwoj, OCH: &#42;[r]ˤuj)
 **Community-Internal Edges (2 in Total)**
-* 虺 (MCH: xjw+jX, OCH: `*`[r̥]  u[j]ʔ, Frequency: 1)
-* 崔 (MCH: dzwoj, OCH: `*`[dz]ˤ  uj, Frequency: 1)
+* 虺 (MCH: xjw+jX, OCH: &#42;[r̥]u[j]ʔ, Frequency: 1)
+* 崔 (MCH: dzwoj, OCH: &#42;[dz]ˤuj, Frequency: 1)
 
 **Community-External Edges (1 in Total)**
-* 懷 (MCH: hweaj, OCH: `*`[g]ˤ r uj, Frequency: 1)
+* 懷 (MCH: hweaj, OCH: &#42;[g]ˤruj, Frequency: 1)
 
-## Character 嵬 (MCH: ngwojX, OCH: `*`N- qʰˤ  ujʔ)
+## Character 嵬 (MCH: ngwojX, OCH: &#42;N-qʰˤujʔ)
 **Community-Internal Edges (1 in Total)**
-* 崔 (MCH: dzwoj, OCH: `*`[dz]ˤ  uj, Frequency: 2)
+* 崔 (MCH: dzwoj, OCH: &#42;[dz]ˤuj, Frequency: 2)
 
-## Character 崔 (MCH: dzwoj, OCH: `*`[dz]ˤ  uj)
+## Character 崔 (MCH: dzwoj, OCH: &#42;[dz]ˤuj)
 **Community-Internal Edges (3 in Total)**
-* 罍 (MCH: lwoj, OCH: `*`[r]ˤ  uj, Frequency: 1)
-* 虺 (MCH: xjw+jX, OCH: `*`[r̥]  u[j]ʔ, Frequency: 1)
-* 嵬 (MCH: ngwojX, OCH: `*`N- qʰˤ  ujʔ, Frequency: 2)
+* 罍 (MCH: lwoj, OCH: &#42;[r]ˤuj, Frequency: 1)
+* 虺 (MCH: xjw+jX, OCH: &#42;[r̥]u[j]ʔ, Frequency: 1)
+* 嵬 (MCH: ngwojX, OCH: &#42;N-qʰˤujʔ, Frequency: 2)
 
 **Community-External Edges (2 in Total)**
-* 綏 (MCH: swij, OCH: `*`s. n  uj, Frequency: 1)
-* 懷 (MCH: hweaj, OCH: `*`[g]ˤ r uj, Frequency: 1)
+* 綏 (MCH: swij, OCH: &#42;s.nuj, Frequency: 1)
+* 懷 (MCH: hweaj, OCH: &#42;[g]ˤruj, Frequency: 1)
 
-## Character 虺 (MCH: xjw+jX, OCH: `*`[r̥]  u[j]ʔ)
+## Character 虺 (MCH: xjw+jX, OCH: &#42;[r̥]u[j]ʔ)
 **Community-Internal Edges (3 in Total)**
-* 隤 (MCH: dwoj, OCH: `*`N- rˤ  uj, Frequency: 1)
-* 罍 (MCH: lwoj, OCH: `*`[r]ˤ  uj, Frequency: 1)
-* 崔 (MCH: dzwoj, OCH: `*`[dz]ˤ  uj, Frequency: 1)
+* 隤 (MCH: dwoj, OCH: &#42;N-rˤuj, Frequency: 1)
+* 罍 (MCH: lwoj, OCH: &#42;[r]ˤuj, Frequency: 1)
+* 崔 (MCH: dzwoj, OCH: &#42;[dz]ˤuj, Frequency: 1)
 
 **Community-External Edges (1 in Total)**
-* 懷 (MCH: hweaj, OCH: `*`[g]ˤ r uj, Frequency: 1)
+* 懷 (MCH: hweaj, OCH: &#42;[g]ˤruj, Frequency: 1)
 
-## Character 隤 (MCH: dwoj, OCH: `*`N- rˤ  uj)
+## Character 隤 (MCH: dwoj, OCH: &#42;N-rˤuj)
 **Community-Internal Edges (1 in Total)**
-* 虺 (MCH: xjw+jX, OCH: `*`[r̥]  u[j]ʔ, Frequency: 1)
+* 虺 (MCH: xjw+jX, OCH: &#42;[r̥]u[j]ʔ, Frequency: 1)
 
 # Infomap Cluster 7
 
-## Character 訓 (MCH: xjunH, OCH: `*`l̥  u[n] -s)
+## Character 訓 (MCH: xjunH, OCH: &#42;l̥u[n]-s)
 **Community-Internal Edges (1 in Total)**
-* 順 (MCH: zywinH, OCH: `*`Cə. l  u[n] -s, Frequency: 1)
+* 順 (MCH: zywinH, OCH: &#42;Cə.lu[n]-s, Frequency: 1)
 
-## Character 順 (MCH: zywinH, OCH: `*`Cə. l  u[n] -s)
+## Character 順 (MCH: zywinH, OCH: &#42;Cə.lu[n]-s)
 **Community-Internal Edges (2 in Total)**
-* 問 (MCH: mjunH, OCH: `*`C. m  u[n] -s, Frequency: 1)
-* 訓 (MCH: xjunH, OCH: `*`l̥  u[n] -s, Frequency: 1)
+* 問 (MCH: mjunH, OCH: &#42;C.mu[n]-s, Frequency: 1)
+* 訓 (MCH: xjunH, OCH: &#42;l̥u[n]-s, Frequency: 1)
 
-## Character 問 (MCH: mjunH, OCH: `*`C. m  u[n] -s)
+## Character 問 (MCH: mjunH, OCH: &#42;C.mu[n]-s)
 **Community-Internal Edges (1 in Total)**
-* 順 (MCH: zywinH, OCH: `*`Cə. l  u[n] -s, Frequency: 1)
+* 順 (MCH: zywinH, OCH: &#42;Cə.lu[n]-s, Frequency: 1)
 
 # Infomap Cluster 8
 
-## Character 追 (MCH: trwij, OCH: `*`t r uj)
+## Character 追 (MCH: trwij, OCH: &#42;truj)
 **Community-Internal Edges (1 in Total)**
-* 綏 (MCH: swij, OCH: `*`s. n  uj, Frequency: 1)
+* 綏 (MCH: swij, OCH: &#42;s.nuj, Frequency: 1)
 
-## Character 纍 (MCH: lwij, OCH: `*`[r]  uj)
+## Character 纍 (MCH: lwij, OCH: &#42;[r]uj)
 **Community-Internal Edges (1 in Total)**
-* 綏 (MCH: swij, OCH: `*`s. n  uj, Frequency: 2)
+* 綏 (MCH: swij, OCH: &#42;s.nuj, Frequency: 2)
 
-## Character 綏 (MCH: swij, OCH: `*`s. n  uj)
+## Character 綏 (MCH: swij, OCH: &#42;s.nuj)
 **Community-Internal Edges (2 in Total)**
-* 追 (MCH: trwij, OCH: `*`t r uj, Frequency: 1)
-* 纍 (MCH: lwij, OCH: `*`[r]  uj, Frequency: 2)
+* 追 (MCH: trwij, OCH: &#42;truj, Frequency: 1)
+* 纍 (MCH: lwij, OCH: &#42;[r]uj, Frequency: 2)
 
 **Community-External Edges (1 in Total)**
-* 崔 (MCH: dzwoj, OCH: `*`[dz]ˤ  uj, Frequency: 1)
+* 崔 (MCH: dzwoj, OCH: &#42;[dz]ˤuj, Frequency: 1)
 
 # Infomap Cluster 9
 
-## Character 春 (MCH: tsyhwin, OCH: `*`tʰ  un)
+## Character 春 (MCH: tsyhwin, OCH: &#42;tʰun)
 **Community-Internal Edges (1 in Total)**
-* 麇 (MCH: kwin, OCH: `*`k r un, Frequency: 1)
+* 麇 (MCH: kwin, OCH: &#42;krun, Frequency: 1)
 
-## Character 麇 (MCH: kwin, OCH: `*`k r un)
+## Character 麇 (MCH: kwin, OCH: &#42;krun)
 **Community-Internal Edges (1 in Total)**
-* 春 (MCH: tsyhwin, OCH: `*`tʰ  un, Frequency: 1)
+* 春 (MCH: tsyhwin, OCH: &#42;tʰun, Frequency: 1)
 
 # Infomap Cluster 10
 
-## Character 昏 (MCH: xwon, OCH: `*`m̥ˤ  u[n])
+## Character 昏 (MCH: xwon, OCH: &#42;m̥ˤu[n])
 # Infomap Cluster 11
 
-## Character 狁 (MCH: ywinX, OCH: `*`[l]  u[r]ʔ)
+## Character 狁 (MCH: ywinX, OCH: &#42;[l]u[r]ʔ)
 # Infomap Cluster 12
 
-## Character 群 (MCH: gjun, OCH: `*`[g]  ur)
+## Character 群 (MCH: gjun, OCH: &#42;[g]ur)
 # Infomap Cluster 13
 
-## Character 尹 (MCH: ywinX, OCH: `*`m- q  urʔ)
+## Character 尹 (MCH: ywinX, OCH: &#42;m-qurʔ)
 # Infomap Cluster 14
 
-## Character 純 (MCH: dzywin, OCH: `*`[d]  u[n])
+## Character 純 (MCH: dzywin, OCH: &#42;[d]u[n])
 # Infomap Cluster 15
 
-## Character 匱 (MCH: gwijH, OCH: `*`[g] r uj -s)
+## Character 匱 (MCH: gwijH, OCH: &#42;[g]ruj-s)
 # Infomap Cluster 16
 
-## Character 浼 (MCH: mwojX, OCH: `*`mˤ  [u]rʔ)
+## Character 浼 (MCH: mwojX, OCH: &#42;mˤ[u]rʔ)

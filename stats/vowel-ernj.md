@@ -1,103 +1,103 @@
 # Infomap Cluster 0
 
-## Character 見 (MCH: henH, OCH: `*`m- [k]ˤ  en -s)
+## Character 見 (MCH: henH, OCH: &#42;m-[k]ˤen-s)
 **Community-Internal Edges (2 in Total)**
-* 霰 (MCH: senH, OCH: `*`sˤ  [e]r -s, Frequency: 1)
-* 宴 (MCH: 'enH, OCH: `*`ʔˤ  e[n] -s, Frequency: 1)
+* 霰 (MCH: senH, OCH: &#42;sˤ[e]r-s, Frequency: 1)
+* 宴 (MCH: 'enH, OCH: &#42;ʔˤe[n]-s, Frequency: 1)
 
-## Character 宴 (MCH: 'enH, OCH: `*`ʔˤ  e[n] -s)
+## Character 宴 (MCH: 'enH, OCH: &#42;ʔˤe[n]-s)
 **Community-Internal Edges (2 in Total)**
-* 霰 (MCH: senH, OCH: `*`sˤ  [e]r -s, Frequency: 1)
-* 見 (MCH: henH, OCH: `*`m- [k]ˤ  en -s, Frequency: 1)
+* 霰 (MCH: senH, OCH: &#42;sˤ[e]r-s, Frequency: 1)
+* 見 (MCH: henH, OCH: &#42;m-[k]ˤen-s, Frequency: 1)
 
-## Character 霰 (MCH: senH, OCH: `*`sˤ  [e]r -s)
+## Character 霰 (MCH: senH, OCH: &#42;sˤ[e]r-s)
 **Community-Internal Edges (2 in Total)**
-* 宴 (MCH: 'enH, OCH: `*`ʔˤ  e[n] -s, Frequency: 1)
-* 見 (MCH: henH, OCH: `*`m- [k]ˤ  en -s, Frequency: 1)
+* 宴 (MCH: 'enH, OCH: &#42;ʔˤe[n]-s, Frequency: 1)
+* 見 (MCH: henH, OCH: &#42;m-[k]ˤen-s, Frequency: 1)
 
 # Infomap Cluster 1
 
-## Character 儇 (MCH: xjwien, OCH: `*`qʷʰ  en)
+## Character 儇 (MCH: xjwien, OCH: &#42;qʷʰen)
 **Community-Internal Edges (3 in Total)**
-* 肩 (MCH: ken, OCH: `*`[k]ˤ  e[n], Frequency: 1)
-* 間 (MCH: kean, OCH: `*`kˤ r e[n], Frequency: 1)
-* 還 (MCH: zjwen, OCH: `*`s- ɢʷ  en, Frequency: 1)
+* 肩 (MCH: ken, OCH: &#42;[k]ˤe[n], Frequency: 1)
+* 間 (MCH: kean, OCH: &#42;kˤre[n], Frequency: 1)
+* 還 (MCH: zjwen, OCH: &#42;s-ɢʷen, Frequency: 1)
 
-## Character 間 (MCH: kean, OCH: `*`kˤ r e[n])
+## Character 間 (MCH: kean, OCH: &#42;kˤre[n])
 **Community-Internal Edges (3 in Total)**
-* 儇 (MCH: xjwien, OCH: `*`qʷʰ  en, Frequency: 1)
-* 還 (MCH: zjwen, OCH: `*`s- ɢʷ  en, Frequency: 1)
-* 肩 (MCH: ken, OCH: `*`[k]ˤ  e[n], Frequency: 1)
+* 儇 (MCH: xjwien, OCH: &#42;qʷʰen, Frequency: 1)
+* 還 (MCH: zjwen, OCH: &#42;s-ɢʷen, Frequency: 1)
+* 肩 (MCH: ken, OCH: &#42;[k]ˤe[n], Frequency: 1)
 
-## Character 還 (MCH: zjwen, OCH: `*`s- ɢʷ  en)
+## Character 還 (MCH: zjwen, OCH: &#42;s-ɢʷen)
 **Community-Internal Edges (3 in Total)**
-* 儇 (MCH: xjwien, OCH: `*`qʷʰ  en, Frequency: 1)
-* 間 (MCH: kean, OCH: `*`kˤ r e[n], Frequency: 1)
-* 肩 (MCH: ken, OCH: `*`[k]ˤ  e[n], Frequency: 1)
+* 儇 (MCH: xjwien, OCH: &#42;qʷʰen, Frequency: 1)
+* 間 (MCH: kean, OCH: &#42;kˤre[n], Frequency: 1)
+* 肩 (MCH: ken, OCH: &#42;[k]ˤe[n], Frequency: 1)
 
-## Character 肩 (MCH: ken, OCH: `*`[k]ˤ  e[n])
+## Character 肩 (MCH: ken, OCH: &#42;[k]ˤe[n])
 **Community-Internal Edges (3 in Total)**
-* 儇 (MCH: xjwien, OCH: `*`qʷʰ  en, Frequency: 1)
-* 間 (MCH: kean, OCH: `*`kˤ r e[n], Frequency: 1)
-* 還 (MCH: zjwen, OCH: `*`s- ɢʷ  en, Frequency: 1)
+* 儇 (MCH: xjwien, OCH: &#42;qʷʰen, Frequency: 1)
+* 間 (MCH: kean, OCH: &#42;kˤre[n], Frequency: 1)
+* 還 (MCH: zjwen, OCH: &#42;s-ɢʷen, Frequency: 1)
 
 # Infomap Cluster 2
 
-## Character 駽 (MCH: xwenH, OCH: `*`qʷʰˤ  en -s)
+## Character 駽 (MCH: xwenH, OCH: &#42;qʷʰˤen-s)
 **Community-Internal Edges (1 in Total)**
-* 燕 (MCH: 'enH, OCH: `*`ʔˤ  e[n] -s, Frequency: 1)
+* 燕 (MCH: 'enH, OCH: &#42;ʔˤe[n]-s, Frequency: 1)
 
-## Character 燕 (MCH: 'enH, OCH: `*`ʔˤ  e[n] -s)
+## Character 燕 (MCH: 'enH, OCH: &#42;ʔˤe[n]-s)
 **Community-Internal Edges (1 in Total)**
-* 駽 (MCH: xwenH, OCH: `*`qʷʰˤ  en -s, Frequency: 1)
+* 駽 (MCH: xwenH, OCH: &#42;qʷʰˤen-s, Frequency: 1)
 
 # Infomap Cluster 3
 
-## Character 蕑 (MCH: kean, OCH: `*`k. rˤ  e[n])
+## Character 蕑 (MCH: kean, OCH: &#42;k.rˤe[n])
 **Community-Internal Edges (1 in Total)**
-* 悁 (MCH: 'jwien, OCH: `*`qʷ  en, Frequency: 1)
+* 悁 (MCH: 'jwien, OCH: &#42;qʷen, Frequency: 1)
 
-## Character 悁 (MCH: 'jwien, OCH: `*`qʷ  en)
+## Character 悁 (MCH: 'jwien, OCH: &#42;qʷen)
 **Community-Internal Edges (1 in Total)**
-* 蕑 (MCH: kean, OCH: `*`k. rˤ  e[n], Frequency: 1)
+* 蕑 (MCH: kean, OCH: &#42;k.rˤe[n], Frequency: 1)
 
 # Infomap Cluster 4
 
-## Character 簡 (MCH: keanX, OCH: `*`kˤ r e[n]ʔ)
+## Character 簡 (MCH: keanX, OCH: &#42;kˤre[n]ʔ)
 # Infomap Cluster 5
 
-## Character 顯 (MCH: xenX, OCH: `*`qʰˤ  enʔ)
+## Character 顯 (MCH: xenX, OCH: &#42;qʰˤenʔ)
 # Infomap Cluster 6
 
-## Character 環 (MCH: hwaen, OCH: `*`C. ɢʷˤ <r> en)
+## Character 環 (MCH: hwaen, OCH: &#42;C.ɢʷˤ<r>en)
 **Community-Internal Edges (1 in Total)**
-* 鬈 (MCH: gjwen, OCH: `*`[g]ʷ r en, Frequency: 1)
+* 鬈 (MCH: gjwen, OCH: &#42;[g]ʷren, Frequency: 1)
 
-## Character 鬈 (MCH: gjwen, OCH: `*`[g]ʷ r en)
+## Character 鬈 (MCH: gjwen, OCH: &#42;[g]ʷren)
 **Community-Internal Edges (1 in Total)**
-* 環 (MCH: hwaen, OCH: `*`C. ɢʷˤ <r> en, Frequency: 1)
+* 環 (MCH: hwaen, OCH: &#42;C.ɢʷˤ<r>en, Frequency: 1)
 
 # Infomap Cluster 7
 
-## Character 此 (MCH: tshjeX, OCH: `*`[tsʰ]  e(j)ʔ)
+## Character 此 (MCH: tshjeX, OCH: &#42;[tsʰ]e(j)ʔ)
 # Infomap Cluster 8
 
-## Character 翩 (MCH: phjien, OCH: `*`pʰ  e[n])
+## Character 翩 (MCH: phjien, OCH: &#42;pʰe[n])
 # Infomap Cluster 9
 
-## Character 淺 (MCH: tshjenX, OCH: `*`[tsʰ]  e[n]ʔ)
+## Character 淺 (MCH: tshjenX, OCH: &#42;[tsʰ]e[n]ʔ)
 # Infomap Cluster 10
 
-## Character 展 (MCH: trjenX, OCH: `*`t r enʔ)
+## Character 展 (MCH: trjenX, OCH: &#42;trenʔ)
 # Infomap Cluster 11
 
-## Character 地 (MCH: dijH, OCH: `*`[l]ˤ  ej -s)
+## Character 地 (MCH: dijH, OCH: &#42;[l]ˤej-s)
 # Infomap Cluster 12
 
-## Character 奠 (MCH: denH, OCH: `*`N- tˤ  e[n] -s)
+## Character 奠 (MCH: denH, OCH: &#42;N-tˤe[n]-s)
 # Infomap Cluster 13
 
-## Character 柴 (MCH: dzrea, OCH: `*`[C. dz]ˤ r e(j))
+## Character 柴 (MCH: dzrea, OCH: &#42;[C.dz]ˤre(j))
 # Infomap Cluster 14
 
-## Character 善 (MCH: dzyenX, OCH: `*`[g]  e[n]ʔ)
+## Character 善 (MCH: dzyenX, OCH: &#42;[g]e[n]ʔ)
