@@ -1,10 +1,49 @@
 /* display the datatable */
 function showTable (){
+
+  /* check for url parameter */
+  if (window.location.href.indexOf('?') != -1) {
+    var rest=window.location.href.split('?')[1];
+    var elms = rest.split('&');
+    var parms = {};
+    for (var i=0,elm; elm=elms[i]; i++) {
+      elm12 = elm.split('=');
+      parms[elm12[0]] = elm12[1];
+    }  
+  }
+  else {
+    var parms = {};
+  }
+
+
+  if ('stanza' in parms) {
+    showPoem(parms['stanza'].split('.')[0], parms['stanza']);
+    var searchterm='';
+    if ('break' in parms) {
+      if (parms['break']) {
+	return;
+      }
+    }
+  }
+  else if ('char' in parms) {
+    var searchterm = parms['char'];
+  }
+  else {
+    var searchterm = '';
+  }
   
   var txt = '<table id="datatable"></table>';
+  var idx = 1;
+  var stanza = '0';
   for (var i=0,row; row=CHARS[i]; i++) {
+    if (row[9] != stanza) {
+      stanza = row[9];
+      idx = 1;
+    }
     /* activate change when clicking on poem */
-    CHARS[i][8] = '<span style="cursor:pointer;color:blue;" onclick="showPoem('+row[8]+')">'+row[8]+'</span>';
+    CHARS[i][10] = idx; //.push(idx);
+    CHARS[i][8] = '<span style="cursor:pointer;color:blue;" onclick="showPoem('+row[8]+',\''+row[9]+'\','+row[10]+')">'+row[8]+'</span>';
+    idx += 1
   }
   document.getElementById('data').innerHTML = txt;
 
@@ -22,12 +61,15 @@ function showTable (){
       {"title" : "POEM", "class" : "description-table"},
       {"title" : "STANZA", "class" : "description-table"},
       {"title" : "SECTION", "class" : "description-table"},
-    ]
+    ],
+    search : {search : decodeURIComponent(searchterm)}
   });
+
+
 }
 
 
-function showPoem(number) {
+function showPoem(number, this_stanza, this_idx) {
   
   var data = POEMS[number];
   var txt = '';
@@ -35,7 +77,7 @@ function showPoem(number) {
   txt += '<table id="rhymetable"><tr><th>SECTION</th><th>RHYME</th><th>ALT. RHY.</th><th>OCBS</th><th>PWY</th><th>MCH</th><th>YUN</th></tr>';
   var rhymes = {};
   var colors = ['lightblue','lightgray','lightgreen','lightyellow','lightred',
-    'Gold','LightPink','BurlyWood','RosyBrown','DarkGray','Cyan','SandyBrown']];
+    'Gold','LightPink','BurlyWood','RosyBrown','DarkGray','Cyan','SandyBrown'];
   for (var i=0,row; row=data['sections'][i]; i++) {
     var sta = row[0];
     if (row[2] != '') {
@@ -51,10 +93,13 @@ function showPoem(number) {
   }
   console.log('rhymes',rhymes);
 
+
+  var idx = 1;
   /* start doing the table iteration */
   var stanza = '';
   for (var i=0,row; row=data['sections'][i]; i++) {
-    txt += '<tr>';
+    
+
     var sec = row[1];
     var sta = row[0]
     var rhy = row[2];
@@ -65,10 +110,30 @@ function showPoem(number) {
     var yun = row[7];
     var chr = row[8];
 
+
     if (stanza != sta) {
-      txt += '<td colspan="9">'+sta+'</td></tr><tr>';
+      if (sta == this_stanza) {
+	txt += '<tr><td colspan="9" style="font-weight:bold;border:2px solid black;">';
+      }
+      else {
+	txt += '<tr><td colspan="9">';
+      }
+      txt += sta+'</td></tr>';
       stanza = sta;
+      var idx = 1;
     }
+
+    if (idx == this_idx && stanza == this_stanza) {
+      var this_col = '2px solid black';
+    }
+    else {
+      this_col = '1px solid lightgray';
+    }
+    
+    txt += '<tr>';
+    idx += 1;
+
+
 
     /* assemble rhymes */
     if (rhy != '') {
@@ -80,13 +145,13 @@ function showPoem(number) {
       var col = 'white';
     }
 
-    txt += '<td>'+sec+'</td>';
-    txt += '<td style="background-color:'+col+';">'+rhy+'</td>';
-    txt += '<td>'+ary+'</td>';
-    txt += '<td>'+obs+'</td>';
-    txt += '<td>'+pwy+'</td>';
-    txt += '<td>'+mch+'</td>';
-    txt += '<td>'+yun+'</td>';
+    txt += '<td style="border:'+this_col+'">'+sec+'</td>';
+    txt += '<td style="border:'+this_col+';background-color:'+col+';">'+rhy+'</td>';
+    txt += '<td style="border:'+this_col+'">'+ary+'</td>';
+    txt += '<td style="border:'+this_col+'">'+obs+'</td>';
+    txt += '<td style="border:'+this_col+'">'+pwy+'</td>';
+    txt += '<td style="border:'+this_col+'">'+mch+'</td>';
+    txt += '<td style="border:'+this_col+'">'+yun+'</td>';
 
     txt += '</tr>';
   }

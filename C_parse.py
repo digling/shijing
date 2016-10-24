@@ -2,11 +2,11 @@ import re
 import json
 from lingpy import *
 
-meta = json.loads(open('meta.json').read())
+meta = json.loads(open('D_shijing_meta.json').read())
 
-data = open('shijing-rhymes.txt')
+data = open('S_shijing_rhymes.corrected.txt')
 
-_ocbs = csv2dict('bsoc.csv', strip_lines=False, header=True)
+_ocbs = csv2dict('D_ocbs.tsv', strip_lines=False, header=True)
 
 def get_sagart(char):
 
@@ -26,11 +26,13 @@ def get_sagart(char):
     mch = _ocbs[char][0]
     gls = _ocbs[char][-1]
     pin = _ocbs[char][1]
-
-    if '[' in yun:
-        nyun = ''.join([x for x in yun if x not in '[]'])
+    
+    # exclude brackets and glottal stop
+    if '[' in yun or '(' in yun or 'ʔ' in yun:
+        nyun = ''.join([x for x in yun if x not in '[]ʔ()'])
     else:
         nyun = yun
+
 
     gsr_class = ''.join([x for x in gsr if x.isdigit()])
     
@@ -250,7 +252,7 @@ wl.add_entries('ocbs', 'preinitial,initial,medial,yun,suf', lambda x,y:
 
 
 
-wl.output('tsv', filename='shijing', formatter='stanza')
+wl.output('tsv', filename='O_shijing', formatter='stanza')
 
 
 
@@ -259,15 +261,80 @@ import networkx as nx
 etd = wl.get_etymdict('rhymeid')
 visited = []
 G = nx.Graph()
+doubles = []
 for k in [key for key in etd if key > 0]:
     
     print("[i] Analyzing key {0}...".format(k))
     rhymes = []
     for line in etd[k]:
         rhymes += line
+
+    # determine the unique lines
+    chars = [wl[idx,'character'] for idx in rhymes]
+    visited_tmp = []
+    rhyme_set = []
+    for rhyme,char in zip(rhymes,chars):
+        if char in visited_tmp:
+            pass
+        else:
+            rhyme_set += [rhyme]
+            visited_tmp += [char]
     
-    visited2 = []
-    for i,idxA in enumerate(rhymes):
+    # determine unique matches in sections
+    pairs = []
+    combis = []
+    for i,idxA in enumerate(rhyme_set):
+        for j,idxB in enumerate(rhyme_set):
+            if i < j:
+                secA = wl[idxA,'raw_section']
+                secB = wl[idxB,'raw_section']
+
+                secAB = secA + '//' + secB
+                secBA = secB + '//' + secA
+
+                charA = wl[idxA, 'character']
+                charB = wl[idxB, 'character']
+
+                if secAB in visited or secBA in visited or (charA, charB) in combis or (charB, charA) in combis:
+                    
+                    doubles += [(secAB, secBA, charA, charB)]
+                else:
+                    visited += [secAB, secBA]
+                    pairs += [(idxA, idxB)]
+                    combis += [(charA, charB),(charB, charA)]
+
+    for i,idx in enumerate(rhyme_set):
+
+        # determine first char
+        section = wl[idx,'section']
+        rid = wl[idx,'rhymeid']
+        mch = wl[idx,'mch']
+        char = wl[idx, 'character']
+        och = wl[idx, 'och']
+        yb = wl[idx, 'ocbsyun']
+        gsr = wl[idx, 'gsrclass']
+       
+        if char not in G:
+            G.add_node(
+                    char,
+                    mch = [mch],
+                    rid = [rid],
+                    yunbu = [yb],
+                    och = [och],
+                    gsr = [gsr],
+                    occ = 1
+                    )
+        else:
+            G.node[char]['mch'] += [mch]
+            G.node[char]['rid'] += [rid]
+            G.node[char]['och'] += [och]
+            G.node[char]['yunbu'] += [yb]
+            G.node[char]['gsr'] += [gsr]
+            G.node[char]['occ'] += 1
+    
+    for idxA, idxB in pairs:
+
+        # determine first char
         sectionA = wl[idxA,'section']
         ridA = wl[idxA,'rhymeid']
         mchA = wl[idxA,'mch']
@@ -275,95 +342,60 @@ for k in [key for key in etd if key > 0]:
         ochA = wl[idxA, 'och']
         ybA = wl[idxA, 'ocbsyun']
         gsrA = wl[idxA, 'gsrclass']
-
-        for j,idxB in enumerate(rhymes):
-            if i < j:
-                sectionB = wl[idxB,'section']
-                ridB = wl[idxB,'rhymeid']
-                mchB = wl[idxB,'mch']
-                charB = wl[idxB, 'character']
-                ochB = wl[idxB, 'och']
-                ybB = wl[idxB, 'ocbsyun']
-                gsrB = wl[idxB, 'gsrclass']
-
-                if sectionA == sectionB or sectionA+'/'+sectionB in visited or \
-                        sectionB + '/' + sectionA in visited:
-                            pass
-                else:
-                    visited += [sectionA+'/'+sectionB]
-                    visited += [sectionB+'/'+sectionA]
-
-                    if charA+'/'+charB not in visited2 and charB + '/'+charA \
-                        not in visited2 and charA != charB:
-
-                        visited2 += [charA+'/'+charB, charB+'/'+charA]
-
-                        if charA not in G:
-                            G.add_node(
-                                    charA,
-                                    mch = [mchA],
-                                    rid = [ridA],
-                                    yunbu = [ybA],
-                                    och = [ochA],
-                                    gsr = [gsrA],
-                                    occ = 1
-                                    )
-                        else:
-                            G.node[charA]['occ'] += 1
-                            G.node[charA]['mch'] += [mchA]
-                            G.node[charA]['rid'] += [ridA]
-                            G.node[charA]['och'] += [ochA]
-                            G.node[charA]['yunbu'] += [ybA]
-                            G.node[charA]['gsr'] += [gsrA]
-
-                        if charB not in G:
-                            G.add_node(
-                                    charB,
-                                    mch = [mchB],
-                                    rid = [ridB],
-                                    yunbu = [ybB],
-                                    och = [ochB],
-                                    gsr = [gsrB],
-                                    occ = 1
-                                    )
-                        else:
-                            G.node[charB]['occ'] += 1
-                            G.node[charB]['mch'] += [mchB]
-                            G.node[charB]['rid'] += [ridB]
-                            G.node[charB]['och'] += [ochB]
-                            G.node[charB]['yunbu'] += [ybB]
-                            G.node[charB]['gsr'] += [gsrB]
-
-                        try:
-                            G.edge[charA][charB]['weight'] += 1
-                        except:
-                            G.add_edge(
-                                    charA,
-                                    charB,
-                                    weight = 1
-                                    )
+        
+        # determine second char
+        sectionB = wl[idxB,'section']
+        ridB = wl[idxB,'rhymeid']
+        mchB = wl[idxB,'mch']
+        charB = wl[idxB, 'character']
+        ochB = wl[idxB, 'och']
+        ybB = wl[idxB, 'ocbsyun']
+        gsrB = wl[idxB, 'gsrclass']
+                
+        try:
+            G.edge[charA][charB]['weight'] += 1
+            G.edge[charA][charB]['nweight'] += 1 / len(rhyme_set)
+            #G.edge[charA][charB]['factor'] += [len(rhyme_set)]
+            G.edge[charA][charB]['stanza'] += [wl[idxA,'stanza']]
+        except:
+            G.add_edge(
+                    charA,
+                    charB,
+                    weight = 1,
+                    nweight = 1 / len(rhyme_set),
+                    stanza = [wl[idxA,'stanza']]
+                    #factor = [len(rhyme_set)],
+                    #rimeID = [ridA]
+                    )
 
 for node, data in G.nodes(data=True):
     data['mch'] = '/'.join(sorted(set(data['mch'])))
     data['rid'] = ','.join([str(x) for x in data['rid']])
     data['och'] = ','.join(sorted(set(data['och'])))
     data['yunbu'] = ','.join(sorted(set(data['yunbu'])))
+    data['gsr'] = '/'.join(sorted(set(data['gsr'])))
+    
     #data['pwy'] = ','.join(sorted(set(data['pwy'])))
 
 for nA,nB,data in G.edges(data=True):
+    
+    w = data['weight']
+    occA = G.node[nA]['occ']
+    occB = G.node[nB]['occ']
 
-    data['nw'] = data['weight'] ** 2 / (G.node[nA]['occ'] + G.node[nB]['occ'] -
-            data['weight'])
+    print(nA, nB, occA, occB, w)
+    data['nw'] = w ** 2 / (occA + occB - w)
+    data['stanza'] = '/'.join(data['stanza'])
 
-nx.write_gml(G, 'shijing.gml')
 
+nx.write_gml(G, 'R_shijing.gml')
+nx.write_yaml(G, 'R_shijing.yaml')
 import html.parser
 
-with open('shijing.gml') as f:
+with open('R_shijing.gml') as f:
     shijing = f.read()
-with open('shijing.gml', 'w') as f:
+with open('R_shijing.gml', 'w') as f:
     f.write(html.parser.unescape(shijing))
-
 
 # get chars which are unresolved
 M = {}
@@ -375,17 +407,19 @@ for k in wl:
     char = wl[k,'character']
     if rid != 0 and not ocbsyun:
         try:
-            M[char] += [[wl[k,x] for x in ['stanza','section_number','mch',
+            M[char] += [[wl[k,x] for x in ['stanza','section_number','och','mch',
             'pwy']]]
         except:
-            M[char] = [[wl[k,x] for x in ['stanza', 'section_number','mch',
+            M[char] = [[wl[k,x] for x in ['stanza', 'section_number','och','mch',
                 'pwy']]]
 
-with open('missing_data.tsv', 'w') as f:
+with open('R_missing_data.tsv', 'w') as f:
     
-    f.write('\t'.join([x.upper() for x in ['ID','character', 'stanza', 'section', 'mch', 'pwy']])+'\n')
+    f.write('\t'.join([x.upper() for x in ['ID','character', 'stanza',
+        'section', 'och', 'mch', 'pwy']])+'\n')
     for i,k in enumerate(sorted(M)):
 
         for line in M[k]:
             f.write('\t'.join([str(x) for x in [i+1, k] + line])+'\n')
-        
+
+
